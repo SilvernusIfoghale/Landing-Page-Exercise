@@ -1,0 +1,172 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+#mainHeader
+{
+  background: #233242;
+  color: white;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+#containerleft{
+  display: flex;
+}
+
+#containerleft h4{
+  list-style: none;
+  gap: 1rem;
+  justify-self: flex-start;
+  flex-basis: 30%;
+}
+
+#containerleft ul{
+  flex-basis: 100%;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+ 
+}
+
+#containerleft a{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+
+}
+
+#jumbo{
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#clearflex{
+  margin: 0px;
+  padding-right: 50px;
+}
+
+#image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: gray;
+  width: 450px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+#top-button{
+  color: white;
+  background-color: rgb(35, 108, 233);
+  border-radius: 7px;
+  width: 90px;
+  height: 30px;
+  font-weight: bold;
+}
+
+#navtop{
+  background-color: white;
+  color:black;
+}
+
+#all-navdiv{
+  display: flex;
+  gap: 2rem;
+  padding: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navdiv{
+border: 3px solid blue;
+width: 150px;
+height: 120px;
+border-radius: 5px;
+}
+
+#navtop h2{
+  text-align: center;
+}
+
+.item-nav p{
+  text-align: center;
+  width: 150px;
+}
+
+
+#navbottom{
+  padding-top: 40px;
+  background-color: rgb(237, 234, 234);
+  color: black;
+  display: flex;
+  padding-bottom: 40px;
+
+}
+
+#quote-div{
+  width:82%;
+  margin: 0px auto;
+}
+
+#quote{
+  font-style: italic;
+  font-weight: bolder;
+text-align: right;
+}
+
+
+#navlast{
+  background-color: white;
+  padding-top: 50px;
+}
+
+#position{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#all-content{
+  background-color: rgb(55, 122, 216);
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  height: 80px;
+  width: 70%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+#down-button{
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 75px;
+  height: 40px;
+  background-color: rgb(55, 122, 216);
+  text-align: center;
+}
+
+#Footer{
+  background-color: #233242;
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+
